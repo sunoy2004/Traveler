@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">    
+
+<head>
+    <meta charset="utf-8">
+    <title>WeTour</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img width=40px height=40px src="tour-guide.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h3 class="chatbox__heading--header">WeTour</h3>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button"><img width="24" height="24" src="https://img.icons8.com/forma-bold-filled/24/paper-plane.png" alt="paper-plane"/></button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img width="40" height="40" src="https://img.icons8.com/parakeet/48/chatbot.png" alt="chatbot"/></button>
+            </div>
+        </div>
+    </div>
+    
+        <script src="./app.js"></script>
+    
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">TRAVEL</span>ER</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu border-0 rounded-0 m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="single.html" class="dropdown-item active">Blog Detail</a>
+                                <a href="destination.html" class="dropdown-item">Destination</a>
+                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">Blog Detail</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Blog Detail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+<!-- Blog Detail Start -->
+<div class="pb-3">
+    <div class="blog-item">
+        <div class="position-relative">
+            <img class="img-fluid w-100" src="img/indiapkgi.webp" alt="Incredible India">
+            <div class="blog-date">
+                <h6 class="font-weight-bold mb-n1">14</h6>
+                <small class="text-white text-uppercase">Apr</small>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white mb-3" style="padding: 30px;">
+        <div class="d-flex mb-3">
+            <a class="text-primary text-uppercase text-decoration-none" href="#">Admin</a>
+            <span class="text-primary px-2">|</span>
+            <a class="text-primary text-uppercase text-decoration-none" href="#">India Tourism</a>
+        </div>
+        <h2 class="mb-3">Top 5 Must-Visit Destinations in India</h2>
+        <p>India, a land of vibrant colors, rich culture, and ancient heritage, is home to some of the world's most iconic travel destinations. From the snowy peaks of the Himalayas to the serene beaches of Goa, every region offers a unique experience. Here are five must-visit places to add to your travel bucket list:</p>
+
+        <h4 class="mb-3">1. Jaipur, Rajasthan – The Pink City</h4>
+        <img class="img-fluid w-50 float-left mr-4 mb-2" src="img/raj2.jpg" alt="Jaipur City Palace">
+        <p>Jaipur enchants visitors with its majestic palaces, vibrant bazaars, and regal heritage. Highlights include the Hawa Mahal, Amber Fort, and City Palace. Don’t miss the local Rajasthani cuisine and the colorful Johari Bazaar.</p>
+
+        <h4 class="mb-3"><br><br>2. Varanasi, Uttar Pradesh - The Spiritual Capital</h4>
+        <img class="img-fluid w-50 float-right ml-4 mb-2" src="img/vara2.jpg" alt="Varanasi Ganga Aarti">
+        <p>Known as one of the oldest continuously inhabited cities in the world, Varanasi offers a spiritual journey through its sacred Ganga Aarti, mystical ghats, and centuries-old temples. It’s a city where life and death meet with grace.</p>
+
+        <h4 class="mb-3"><br>3. Kerala – God’s Own Country</h4>
+        <img class="img-fluid w-50 float-right ml-4 mb-2" src="img/kerela.jpg" alt="Kerala Backwaters">
+        <p>From the backwaters of Alleppey to the tea gardens of Munnar, Kerala is a haven for nature lovers. Enjoy a houseboat cruise, watch Kathakali performances, and relax on Varkala’s tranquil beaches.</p>
+
+        <h4 class="mb-3"><br><br>4. Leh-Ladakh, Jammu & Kashmir – Adventure and Serenity</h4>
+        <img class="img-fluid w-50 float-left mr-4 mb-2" src="img/kashmir.jpg" alt="Leh-Ladakh">
+        <p>For thrill-seekers, Ladakh offers unforgettable adventures – from biking on the world’s highest motorable road to visiting Pangong Lake. The stark beauty and spiritual calm of its monasteries make it a soul-stirring destination.</p>
+
+        <h4 class="mb-3"><br>5. Goa – Beyond the Beaches</h4>
+        <img class="img-fluid w-50 float-right ml-4 mb-2" src="img/goa.webp" alt="Goa Beaches">
+        <p>Goa is more than just a party hub. Explore its Portuguese heritage, charming churches, flea markets, and spice plantations. Whether you’re into nightlife or serenity, Goa caters to all types of travelers.</p>
+
+        <p>India’s tourism diversity makes it a perfect destination for culture enthusiasts, nature lovers, and adventure seekers alike. Plan your next trip with a mix of heritage, spirituality, and fun!</p>
+    </div>
+</div>
+<!-- Blog Detail End -->
+
+    
+                    <!-- Comment List Start -->
+<div class="bg-white" style="padding: 30px; margin-bottom: 30px;">
+    <h3 class="mb-4">3 Comments</h3>
+    <div class="media mb-4">
+        <img src="img/user1.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="#">Khushi Chouksey</a> <small><i>14 April 2025 at 10:00 am</i></small></h6>
+            <p>Such a well-written post! Jaipur and Kerala are on my list for this summer. Would love more tips on budget travel in India!</p>
+            <button class="btn btn-sm btn-outline-primary">Reply</button>
+        </div>
+    </div>
+    <div class="media mb-4">
+        <img src="img/user2.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="#">Sunoy Roy</a> <small><i>14 April 2025 at 12:15 pm</i></small></h6>
+            <p>I’ve been to Varanasi – the Ganga Aarti gave me chills. This blog captures the essence of Indian travel beautifully.</p>
+            <button class="btn btn-sm btn-outline-primary">Reply</button>
+        </div>
+    </div>
+    <div class="media">
+        <img src="img/user3.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="#">Tej Panchal</a> <small><i>14 April 2025 at 3:40 pm</i></small></h6>
+            <p>Goa is magical during the monsoons! Great picks overall. Could you also write about hidden gems in North East India?</p>
+            <button class="btn btn-sm btn-outline-primary">Reply</button>
+        </div>
+    </div>
+</div>
+<!-- Comment List End -->
+
+                </div>
+    
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <!-- Author Bio -->
+                    <div class="d-flex flex-column text-center bg-white mb-5 py-5 px-4">
+                        <img src="img/user.jpg" class="img-fluid mx-auto mb-3" style="width: 100px;">
+                        <h3 class="text-primary mb-3">John Doe</h3>
+                        <p>Conset elitr erat vero dolor ipsum et diam, eos dolor lorem, ipsum sit no ut est  ipsum erat kasd amet elitr</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="text-primary px-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-primary px-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="text-primary px-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="text-primary px-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="text-primary px-2" href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+    <!-- Search Form -->
+<div class="mb-5">
+    <div class="bg-white" style="padding: 30px;">
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control p-4" placeholder="Keyword..." required>
+                <div class="input-group-append">
+                    <button class="input-group-text bg-primary border-primary text-white" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+                    <!-- Category List -->
+                    <div class="mb-5">
+                        <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Categories</h4>
+                        <div class="bg-white" style="padding: 30px;">
+                            <ul class="list-inline m-0">
+                                <li class="mb-3 d-flex justify-content-between align-items-center">
+                                    <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Web
+                                        Design</a>
+                                    <span class="badge badge-primary badge-pill">150</span>
+                                </li>
+                                <li class="mb-3 d-flex justify-content-between align-items-center">
+                                    <a class="text-dark" href="#"><i class="fa fa-angle-right text-primary mr-2"></i>Web
+                                        Development</a>
+                                    <span class="badge badge-primary badge-pill">131</span>
+                                </li>
+                                <li class="mb-3 d-flex justify-content-between align-items-center">
+                                    <a class="text-dark" href="#"><i
+                                            class="fa fa-angle-right text-primary mr-2"></i>Online Marketing</a>
+                                    <span class="badge badge-primary badge-pill">78</span>
+                                </li>
+                                <li class="mb-3 d-flex justify-content-between align-items-center">
+                                    <a class="text-dark" href="#"><i
+                                            class="fa fa-angle-right text-primary mr-2"></i>Keyword Research</a>
+                                    <span class="badge badge-primary badge-pill">56</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <a class="text-dark" href="#"><i
+                                            class="fa fa-angle-right text-primary mr-2"></i>Email Marketing</a>
+                                    <span class="badge badge-primary badge-pill">98</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Recent Post -->
+                    <div class="mb-5">
+                        <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Recent Post</h4>
+                        <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                            <img class="img-fluid" src="img/blog-100x100.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
+                                <small>Jan 01, 2050</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                            <img class="img-fluid" src="img/blog-100x100.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
+                                <small>Jan 01, 2050</small>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none bg-white mb-3" href="">
+                            <img class="img-fluid" src="img/blog-100x100.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
+                                <small>Jan 01, 2050</small>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <!-- Tag Cloud -->
+                    <div class="mb-5">
+                        <h4 class="text-uppercase mb-4" style="letter-spacing: 5px;">Tag Cloud</h4>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Design</a>
+                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">SEO</a>
+                            <a href="" class="btn btn-light m-1">Writing</a>
+                            <a href="" class="btn btn-light m-1">Consulting</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+   <!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+    <div class="row pt-5">
+        <!-- Brand Info -->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <a href="#" class="navbar-brand">
+                <h1 class="text-primary"><span class="text-white">We</span>Tour</h1>
+            </a>
+            <p>Explore the vibrant cultures, diverse landscapes, and timeless beauty of India with curated guides, expert tips, and immersive travel stories.</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Site Navigation -->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Links</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                <!-- <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a> -->
+                <a class="text-white-50 mb-2" href="guide.html"><i class="fa fa-angle-right mr-2"></i>Travel Guides</a>
+                <a class="text-white-50 mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                <a class="text-white-50 mb-2" href="testimonial.html"><i class="fa fa-angle-right mr-2"></i>Testimonials</a>
+                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+            </div>
+        </div>
+
+        <!-- Popular Destinations -->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Top Destinations</h5>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Jaipur</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Varanasi</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Ladakh</a>
+                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Goa</a>
+                <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Kerala</a>
+            </div>
+        </div>
+
+        <!-- Contact and Newsletter -->
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>IIIT Surat, Gujarat, India</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+91 98765 43210</p>
+            <p><i class="fa fa-envelope mr-2"></i>hello@WeTour.in</p>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+            <div class="w-100">
+                <div class="input-group">
+                    <input type="email" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary px-3">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright -->
+<div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(255, 255, 255, 0.1) !important;">
+    <div class="row">
+        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+            <p class="m-0 text-white-50">&copy; 2025 <a href="#">WeTour</a>. All rights reserved.</p>
+        </div>
+        <div class="col-lg-6 text-center text-md-right">
+            <p class="m-0 text-white-50">Crafted with ❤️ by <a href="#">Team Sunio</a></p>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
