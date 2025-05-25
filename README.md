@@ -67,13 +67,14 @@ python -m venv venv
 source venv/bin/activate   # For Linux/macOS
 venv\Scripts\activate      # For Windows
 ```
-
-### Install dependencies:
-
+### Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install Flask torch torchvision nltk
 ```
-
+### Download required NLTK data
+```bash
+python -c "import nltk; nltk.download('punkt')"
+```
 ### Train the chatbot (if needed):
 
 ```bash
