@@ -1,6 +1,6 @@
-# 🧳 WeTour – AI-Powered Travel Experience Platform
+# 🧳 WeTour – Travel Experience Platform
 ----
-**WeTour** **is a full-stack travel website designed to deliver curated tour packages across India with a modern UI and an integrated chatbot. Users can explore top destinations, browse services, and interact with an intelligent travel assistant to enhance their journey planning.**
+**WeTour** is a full-stack travel website designed to deliver curated tour packages across India, featuring a modern UI and an integrated chatbot. Users can explore top destinations, browse services, and interact with an intelligent travel assistant to enhance their travel planning experience.**
 ---
 *View Live Page:* https://wetour.onrender.com
 ----
